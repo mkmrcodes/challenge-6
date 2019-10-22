@@ -1,0 +1,241 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url(/images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center 500px;
+  background-size: 90% 50%;
+  background-color: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
+  margin: 3% 0 5% 0;
+}
+.menu {
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  margin-top: 3%;
+  padding: 3% 2% 3% 2%;
+  text-align: center;
+}
+.container img {
+  max-width: 100%;
+  height: 400px;
+}
+.container h1 {
+  padding: 3% 10% 2% 10%;
+  font-weight: 700;
+}
+.container p {
+  padding: 0 25% 3% 25%;
+}
+.btn {
+  border-radius: 20px;
+  width: 20%;
+  background-color: hsl(198, 60%, 50%);
+}
+.access {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: row;
+  grid-gap: 2rem 10px;
+  padding: 10% 3% 3% 3%;
+  text-align: center;
+}
+.access img {
+  width: 60px;
+  height: 60px;
+
+}
+.access h3 {
+  padding-top: 5%;
+}
+.access p {
+  font-size: 0.8rem;
+  padding: 3% 10% 3% 10%;
+
+}
+.how {
+  display: flex;
+}
+.how img {
+  width: 500px;
+  height: 400px;
+}
+.stay {
+  margin: 5% 3% 5% 3%;
+}
+.team {
+  display: flex;
+  margin: 10% 0 0 0;
+}
+.name {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+    "a b"
+    "a c";
+  
+}
+.member {
+  background-color: hsl(219, 30%, 18%);
+  margin-left: 20px;
+  padding: 3% 3% 3% 3%;
+}
+.member p {
+  font-size: 0.8rem;
+}
+.name img {
+  grid-area: a;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  align-self: end;
+}
+.name h4 {
+  grid-area: b;
+  font-size: 0.7rem;
+  align-self: end;
+  margin: 0;
+  padding: 0;
+
+}
+.name h5 {
+  grid-area: c;
+  font-size: 0.6rem;
+  align-self: end;
+}
+.contact {
+  margin: 10% auto 10% auto;
+  width: 60%;
+  height: 250px;
+  background-color: hsl(219, 30%, 18%);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.contact h2 {
+  padding: 5% 3% 2% 3%;
+}
+.contact p {
+  font-size: 0.8rem;
+  padding: 0 3% 2% 3%;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%x;
+  height: 45px;
+  margin-top: 30px;
+}
+.email-form {
+  width: 40%;
+  height: 43px;
+  padding-left: 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  outline: none;
+  margin-right:10px;
+  
+}
+::placeholder {
+  font-size: 0.7rem;
+  color: gray;
+}
+.mybtn {
+  width: 30%;
+  height: 45px;
+  background-color: hsl(198, 60%, 50%);
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  
+}
+.footer {
+  background-color: hsl(216, 53%, 9%);
+  height: 500px;
+  position: relative;
+  top: -250px;
+  
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 5% 35% 15% 15% 15% 15%;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: 
+    "a b c d e f"
+    "a b g h i f"
+    "a b . j k f"
+    "a b . l . f";
+  grid-gap: 0 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+.location {
+  grid-area: a;
+  text-align: right;
+}
+.address {
+  grid-area: b;
+}
+.telephone {
+  grid-area: c;
+  
+}
+.mail {
+  grid-area: g;
+}
+.about {
+  grid-area: d;
+}
+.jobs {
+  grid-area: h;
+}
+.press {
+  grid-area: j;
+}
+.blog {
+  grid-area: l;
+}
+.contact-us {
+  grid-area: e;
+}
+.terms {
+  grid-area: i;
+}
+.privacy {
+  grid-area: k;
+}
+.social a {
+  padding-left: 15px;
+}
+.telephone img {
+  padding-right: 10px;
+}
+.mail img {
+  padding-right: 10px;
+}
+.address p {
+  padding-right: 20%;
+}
+.footer-container a {
+  color: #fff;
+}
+.footer-logo{
+  margin-top: 20%;
+}
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+   }
